@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/backlit-dark-foggy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100px;
+}
+
+h1 {
+    font-size: 3.2em;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #130f40;
+    padding: 10px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 5.5%;
+}
+
+#fahrenheit {
+    border-top: 4px solid #95afc0;
+    border-bottom: 4px solid #95afc0;
+}
+
+input {
+    height: 50%;
+    width: 100%;
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    background: #000;
+    color: #95afc0;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+::placeholder {
+    color: #222;
+}
+
+::-moz-placeholder {
+    color: #222;
+}
+
+::-webkit-input-placeholder {
+    color: #222;
+}
